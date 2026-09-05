@@ -6,16 +6,15 @@ A zero-dependency, accessible popup widget that prompts visitors to donate to Ne
 
 ## CDN via jsDelivr
 
-Replace `{your-username}` with your GitHub username after pushing this repo.
 
 ### Minified (production)
 ```html
-<script src="https://cdn.jsdelivr.net/gh/{your-username}/nepal-donate-widget@1/nepal-donate-widget.min.js" data-auto-init></script>
+<script src="https://cdn.jsdelivr.net/gh/justbishwash-ctrl/nepal-donate-widget@1/nepal-donate-widget.min.js" data-auto-init></script>
 ```
 
 ### Unminified (development)
 ```html
-<script src="https://cdn.jsdelivr.net/gh/{your-username}/nepal-donate-widget@1/nepal-donate-widget.js" data-auto-init></script>
+<script src="https://cdn.jsdelivr.net/gh/justbishwash-ctrl/nepal-donate-widget@1/nepal-donate-widget.js" data-auto-init></script>
 ```
 
 ---
@@ -26,7 +25,7 @@ Replace `{your-username}` with your GitHub username after pushing this repo.
 
 ```html
 <script
-  src="https://cdn.jsdelivr.net/gh/{your-username}/nepal-donate-widget@1/nepal-donate-widget.min.js"
+  src="https://cdn.jsdelivr.net/gh/justbishwash-ctrl/nepal-donate-widget@1/nepal-donate-widget.min.js"
   data-auto-init
   data-delay="2000"
 ></script>
@@ -46,7 +45,7 @@ Replace `{your-username}` with your GitHub username after pushing this repo.
 ### 2. Manual init (full control)
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/{your-username}/nepal-donate-widget@1/nepal-donate-widget.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/justbishwash-ctrl/nepal-donate-widget@1/nepal-donate-widget.min.js"></script>
 <script>
   const widget = new NepalDonateWidget({
     delay:           2000,   // ms before auto-open
@@ -94,17 +93,6 @@ w.destroy();      // Remove widget from DOM entirely
 
 ---
 
-## GitHub → jsDelivr setup
-
-1. Push this repository to GitHub as a **public** repo.
-2. Create a **GitHub Release** or **tag** (e.g. `v1.0.0`).
-3. jsDelivr automatically serves:
-   ```
-   https://cdn.jsdelivr.net/gh/{username}/{repo}@{tag}/{file}
-   ```
-   Version pin with `@1` (major) or `@1.0.0` (exact). Use `@latest` only in dev.
-
----
 
 ## Features
 
