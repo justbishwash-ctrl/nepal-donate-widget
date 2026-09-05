@@ -3,7 +3,7 @@
  * Version: 1.0.0
  * Author: Bishwash Neupane
  * License: MIT
- * CDN: https://cdn.jsdelivr.net/gh/{your-github-username}/nepal-donate-widget@1/nepal-donate-widget.min.js
+ * CDN: https://cdn.jsdelivr.net/gh/justbishwash-ctrl/nepal-donate-widget@1/nepal-donate-widget.min.js
  */
 
 (function (global, factory) {
